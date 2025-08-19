@@ -1,2 +1,14 @@
+<!-- [![crate](https://img.shields.io/badge/crates.io-v0.1.0-green.svg)](https://crates.io/crates/turboplonk) [![doc](https://img.shields.io/badge/docs.rs-v0.1.0-blue.svg)](https://docs.rs/turboplonk) -->
+
 # TurboPlonK
-App-specific TurboPlonK with various gadgets &amp; primitives
+App-specific TurboPlonK with various gadgets & primitives use arkworks.
+
+## Contents
+- TurboPlonK constraint system
+- KZG polynomial commitment
+- Chaum Pedersen commitment
+- Anemoi Hash [paper](https://eprint.iacr.org/2022/840)
+
+## License
+
+This project is licensed under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html).
