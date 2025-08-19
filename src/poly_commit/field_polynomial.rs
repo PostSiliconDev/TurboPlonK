@@ -30,7 +30,7 @@ impl<F: PrimeField> FpPolynomial<F> {
     /// Return the constant zero polynomial
     /// # Example
     /// ```
-    /// use zkp::poly_commit::field_polynomial::FpPolynomial;
+    /// use turboplonk::poly_commit::field_polynomial::FpPolynomial;
     /// use ark_bn254::Fr;
     /// use ark_ff::{Zero, One, Field, AdditiveGroup};
     /// let poly = FpPolynomial::<Fr>::zero();
@@ -46,7 +46,7 @@ impl<F: PrimeField> FpPolynomial<F> {
     /// Return the constant one polynomial
     /// # Example
     /// ```
-    /// use zkp::poly_commit::field_polynomial::FpPolynomial;
+    /// use turboplonk::poly_commit::field_polynomial::FpPolynomial;
     /// use ark_bn254::Fr;
     /// use ark_ff::{Zero, One, Field, AdditiveGroup};
     /// let poly = FpPolynomial::<Fr>::one();
@@ -64,7 +64,7 @@ impl<F: PrimeField> FpPolynomial<F> {
     /// # Example
     /// ```
     /// use ark_std::ops::Add;
-    /// use zkp::poly_commit::field_polynomial::FpPolynomial;
+    /// use turboplonk::poly_commit::field_polynomial::FpPolynomial;
     /// use ark_bn254::Fr;
     /// use ark_ff::{Zero, One, Field, AdditiveGroup};
     ///
@@ -93,7 +93,7 @@ impl<F: PrimeField> FpPolynomial<F> {
     /// # Example
     /// ```
     /// use ark_std::ops::Add;
-    /// use zkp::poly_commit::field_polynomial::FpPolynomial;
+    /// use turboplonk::poly_commit::field_polynomial::FpPolynomial;
     /// use ark_bn254::Fr;
     /// use ark_ff::{Zero, One, Field, AdditiveGroup};
     ///
@@ -131,7 +131,7 @@ impl<F: PrimeField> FpPolynomial<F> {
     /// coffiecient with probability 1/q is zero, and hence the degree could be less than `degree`
     /// # Example:
     /// ```
-    /// use zkp::poly_commit::field_polynomial::FpPolynomial;
+    /// use turboplonk::poly_commit::field_polynomial::FpPolynomial;
     /// use ark_bn254::Fr;
     /// use ark_ff::UniformRand;
     /// use ark_std::rand::SeedableRng;
@@ -161,7 +161,7 @@ impl<F: PrimeField> FpPolynomial<F> {
     /// Return degree of the polynomial
     /// # Example:
     /// ```
-    /// use zkp::poly_commit::field_polynomial::FpPolynomial;
+    /// use turboplonk::poly_commit::field_polynomial::FpPolynomial;
     /// use ark_bn254::Fr;
     /// use ark_ff::{Zero, One, Field, AdditiveGroup};
     ///
@@ -181,7 +181,7 @@ impl<F: PrimeField> FpPolynomial<F> {
     /// Test if polynomial is the zero polynomial.
     /// # Example:
     /// ```
-    /// use zkp::poly_commit::field_polynomial::FpPolynomial;
+    /// use turboplonk::poly_commit::field_polynomial::FpPolynomial;
     /// use ark_bn254::Fr;
     /// use ark_ff::{Zero, One, Field, AdditiveGroup};
     ///
@@ -226,7 +226,7 @@ impl<F: PrimeField> FpPolynomial<F> {
     /// # Example:
     /// ```
     /// use ark_std::ops::Add;
-    /// use zkp::poly_commit::field_polynomial::FpPolynomial;
+    /// use turboplonk::poly_commit::field_polynomial::FpPolynomial;
     /// use ark_bn254::Fr;
     /// use ark_ff::{Zero, One, Field, AdditiveGroup};
     ///
@@ -253,7 +253,7 @@ impl<F: PrimeField> FpPolynomial<F> {
     /// ```
     /// use ark_std::ops::Neg;
     /// use ark_std::ops::Add;
-    /// use zkp::poly_commit::field_polynomial::FpPolynomial;
+    /// use turboplonk::poly_commit::field_polynomial::FpPolynomial;
     /// use ark_bn254::Fr;
     /// use ark_ff::{Zero, One, Field, AdditiveGroup};
     ///
@@ -297,7 +297,7 @@ impl<F: PrimeField> FpPolynomial<F> {
     /// # Example:
     /// ```
     /// use ark_std::ops::Add;
-    /// use zkp::poly_commit::field_polynomial::FpPolynomial;
+    /// use turboplonk::poly_commit::field_polynomial::FpPolynomial;
     /// use ark_bn254::Fr;
     /// use ark_ff::{Zero, One, Field, AdditiveGroup};
     ///
@@ -321,7 +321,7 @@ impl<F: PrimeField> FpPolynomial<F> {
     /// # Example:
     /// ```
     /// use ark_std::ops::Neg;
-    /// use zkp::poly_commit::field_polynomial::FpPolynomial;
+    /// use turboplonk::poly_commit::field_polynomial::FpPolynomial;
     /// use ark_bn254::Fr;
     /// use ark_ff::{Zero, One, Field, AdditiveGroup};
     ///
@@ -342,7 +342,7 @@ impl<F: PrimeField> FpPolynomial<F> {
     /// # Example:
     /// ```
     /// use ark_std::ops::Neg;
-    /// use zkp::poly_commit::field_polynomial::FpPolynomial;
+    /// use turboplonk::poly_commit::field_polynomial::FpPolynomial;
     /// use ark_bn254::Fr;
     /// use ark_ff::{Zero, One, Field, AdditiveGroup};
     ///
@@ -365,7 +365,7 @@ impl<F: PrimeField> FpPolynomial<F> {
     /// ```
     /// use ark_std::ops::Neg;
     /// use ark_std::ops::AddAssign;
-    /// use zkp::poly_commit::field_polynomial::FpPolynomial;
+    /// use turboplonk::poly_commit::field_polynomial::FpPolynomial;
     /// use ark_bn254::Fr;
     /// use ark_ff::{Zero, One, Field, AdditiveGroup};
     ///
@@ -396,7 +396,7 @@ impl<F: PrimeField> FpPolynomial<F> {
     /// # Example:
     /// ```
     /// use ark_std::ops::Add;
-    /// use zkp::poly_commit::field_polynomial::FpPolynomial;
+    /// use turboplonk::poly_commit::field_polynomial::FpPolynomial;
     /// use ark_bn254::Fr;
     /// use ark_ff::{Zero, One, Field, AdditiveGroup};
     ///
@@ -431,7 +431,7 @@ impl<F: PrimeField> FpPolynomial<F> {
     /// # Example:
     /// ```
     /// use ark_std::ops::Add;
-    /// use zkp::poly_commit::field_polynomial::FpPolynomial;
+    /// use turboplonk::poly_commit::field_polynomial::FpPolynomial;
     /// use ark_bn254::Fr;
     /// use ark_ff::{Zero, One, Field, AdditiveGroup};
     ///
@@ -454,7 +454,7 @@ impl<F: PrimeField> FpPolynomial<F> {
     /// # Example:
     /// ```
     /// use ark_std::ops::Add;
-    /// use zkp::poly_commit::field_polynomial::FpPolynomial;
+    /// use turboplonk::poly_commit::field_polynomial::FpPolynomial;
     /// use ark_bn254::Fr;
     /// use ark_ff::{Zero, One, Field, AdditiveGroup};
     ///
@@ -480,7 +480,7 @@ impl<F: PrimeField> FpPolynomial<F> {
     /// # Example:
     /// ```
     /// use ark_std::ops::Add;
-    /// use zkp::poly_commit::field_polynomial::FpPolynomial;
+    /// use turboplonk::poly_commit::field_polynomial::FpPolynomial;
     /// use ark_bn254::Fr;
     /// use ark_ff::{Zero, One, Field, AdditiveGroup};
     ///
@@ -502,7 +502,7 @@ impl<F: PrimeField> FpPolynomial<F> {
     /// Divide polynomial to produce the quotient and remainder polynomials.
     /// # Example:
     /// ```
-    /// use zkp::poly_commit::field_polynomial::FpPolynomial;
+    /// use turboplonk::poly_commit::field_polynomial::FpPolynomial;
     /// use ark_bn254::Fr;
     /// use ark_ff::{Zero, One, Field, AdditiveGroup};
     ///

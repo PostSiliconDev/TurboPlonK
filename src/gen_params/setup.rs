@@ -5,7 +5,7 @@
 use ark_bn254::G1Projective;
 use std::path::PathBuf;
 use structopt::StructOpt;
-use zkp::{
+use turboplonk::{
     gen_params::SRS,
     poly_commit::{kzg_poly_commitment::KZGCommitmentSchemeBN254, pcs::PolyComScheme},
 };

@@ -1,4 +1,3 @@
-use ark_ec::{AffineRepr, CurveGroup};
 use ark_ff::{BigInteger, PrimeField};
 use serde::{Deserialize, Serialize};
 
@@ -937,10 +936,6 @@ impl<F: PrimeField> TurboCS<F> {
                 }
             }
         }
-
-        let one = F::one();
-        let zero = F::zero();
-        let minus_one = -one;
 
         for cs_index in 0..self.size() {
             let mut public_online = F::ZERO;

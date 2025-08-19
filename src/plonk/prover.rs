@@ -26,14 +26,14 @@ use super::{
 /// commitment scheme `pcs` do not match the constraint system parameters.
 /// # Example
 /// ```
-/// use zkp::plonk::{
+/// use turboplonk::plonk::{
 ///     constraint_system::TurboCS,
 ///     verifier::verifier,
 ///     prover::prover,
 ///     indexer::indexer
 /// };
-/// use zkp::poly_commit::kzg_poly_commitment::KZGCommitmentScheme;
-/// use zkp::utils::transcript::Transcript;
+/// use turboplonk::poly_commit::kzg_poly_commitment::KZGCommitmentScheme;
+/// use turboplonk::utils::transcript::Transcript;
 /// use rand_chacha::ChaChaRng;
 /// use ark_bn254::Fr;
 /// use ark_std::{One, rand::SeedableRng, ops::*};
